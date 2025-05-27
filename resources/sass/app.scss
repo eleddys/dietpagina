@@ -1,0 +1,20 @@
+@import 'bootstrap';
+
+.card {
+    transition: transform 0.3s ease;
+    
+    &:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+}
+
+.list-group-item {
+    padding: 1.25rem;
+    font-size: 1.1rem;
+}
+
+.img-fluid {
+    max-height: 500px;
+    object-fit: cover;
+}
